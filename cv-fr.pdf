@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Renaud</title>
+</head>
+<body>
+<div class="container">
+    <div class="left_Side">
+        <div class="profileText">
+            <div class="imgBx">
+                <img src="img.jpg" alt="Photo Renaud">
+            </div>
+            <h2>Renaud Persinet<br><span>Développeur Web</span></h2>
+        </div>
+        <div class="contactInfo">
+            <h3 class="title">contact Info</h3>
+            <ul>
+                <li>
+                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <span class="text">01.02.03.04.05</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <span class="text">nom.prenom@email.com</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                    <span class="text">www.monsite.com</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                    <span class="text">www.linkedin.com/me</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                    <span class="text">Lille,France</span>
+                </li>
+            </ul>
+        </div> 
+
+        <div class="contactInfo education">
+            <h3 class="title">Education</h3>
+            <ul>
+                <li>
+                    <h5>2012-2014</h5>
+                    <h4>Master en sciences informatiques</h4>
+                    <h4>Université de France</h4>
+                </li>
+                <li>
+                    <h5>2009-2012</h5>
+                    <h4>Licence en sciences informatiques</h4>
+                    <h4>Université de France</h4>
+                </li>
+                <li>
+                    <h5>2007-2009</h5>
+                    <h4>Baccalauréat scientifique</h4>
+                    <h4>Lycée de France</h4>
+                </li>
+            </ul>
+        </div> 
+
+        <div class="contactInfo language ">
+            <h3 class="title">Languages</h3>
+            <ul>
+                <li>
+                    <span class="text">Français</span>
+                    <span class="percent">
+                    <span style="width: 100%;"></span>
+                    </span>
+                </li>
+                <li>
+                    <span class="text">Anglais</span>
+                    <span class="percent">
+                    <span style="width: 90%;"></span>
+                    </span>
+                </li>
+                <li>
+                    <span class="text">Espagnol</span>
+                    <span class="percent">
+                    <span style="width: 50%;"></span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+        <div class="right_Side">
+          <div class="about">
+           <h2 class="title2">Profil</h2> 
+           <p>je suis un Développeur <strong>Front-end</strong> avec l'envie de toujours connaitre les dernières technologies et nouveautées. 
+            J'excelle dans la dynamisation des sites web et j'aime paufiner tout les jours le code que j'écris.
+            <br><br>J'utilise <strong>React</strong> en complément de <strong>Javascript</strong> et cherche toujours à découvrir et perfectionner de nouveaux languages.</p>
+          </div> 
+          <div class="about">
+            <h2 class="title2">Expérience</h2> 
+            <div class="box">
+              <div class="year_company">
+                <h5>2019-Présent</h5>
+                <h5>AFCI</h5>
+              </div>
+              <div class="text">
+                <h4>Développeur Front-end Senior</h4>
+                <p>Responsable des différents projets de dévellopement. </p>
+              </div>  
+            </div>
+            <div class="box">
+                <div class="year_company">
+                  <h5>2016-2019</h5>
+                  <h5>La boite à coder</h5>
+                </div>
+                <div class="text">
+                  <h4>Développeur Front-end </h4>
+                  <p>Dévellopement de différents projets et mise en place des veilles technologiques. </p>
+                </div>  
+              </div>
+              <div class="box">
+                <div class="year_company">
+                  <h5>2014-2016</h5>
+                  <h5>Dev Telecom</h5>
+                </div>
+                <div class="text">
+                  <h4>Développeur Front-end Junior</h4>
+                  <p>Dévellopement de différents projets. </p>
+                </div>  
+              </div>
+          </div> 
+
+          <div class="about skills">
+            <h2 class="title2">Skills Professionnelle</h2>
+            <div class="box">
+                <h4>HTML</h4>
+                <div class="percent">
+                <div style="width: 98%;"></div>
+                </div>
+            </div>
+            <div class="box">
+                <h4>CSS</h4>
+                <div class="percent">
+                    <div style="width: 95%;"></div>
+                </div>
+            </div>
+                <div class="box">
+                    <h4>Javascript</h4>
+                    <div class="percent">
+                        <div style="width: 92%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>React</h4>
+                    <div class="percent">
+                        <div style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Node.JS</h4>
+                    <div class="percent">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about interest">
+                <h2 class="title2">Intérêt</h2>
+            <ul>
+                <li><i class="fa fa-paw" aria-hidden="true"></i>Chats</li>
+                <li><i class="fa fa-gamepad" aria-hidden="true"></i>Gaming</li>
+                <li><i class="fa fa-music" aria-hidden="true"></i>Piano</li>
+                <li><i class="fa fa-cutlery" aria-hidden="true"></i>Cuisine</li>
+            </ul>
+
+         </div>
+    </div>
+</div>
+   
+    
+</body>
+</html>
