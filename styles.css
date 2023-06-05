@@ -37,14 +37,31 @@ p{
 }
 
 ul{
-    text-align: center;
+    position: relative; 
+	display: inline-block; 
+	padding-left: 1em; 
+	left: 50%; 
+	transform: translateX(-50%); 
 }
 
 ol{
-    text-align: center;
+    position: relative; 
+	display: inline-block; 
+	padding-left: 1em; 
+	left: 50%; 
+	transform: translateX(-50%); 
 }
 
-
+table{
+    position: relative; 
+	display: inline-block; 
+	padding-left: 1em; 
+	left: 50%; 
+	transform: translateX(-50%); 
+    font-size: 50px;
+    text-align: center;
+ 
+}
 
   a:visited {
     color: #fff;
